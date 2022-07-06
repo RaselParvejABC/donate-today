@@ -54,10 +54,14 @@ h3 {
 /* Header Section */
 
 header {
-  background-image: url("../assets/images/donation13.jpg");
+  background-image: linear-gradient(
+      to top,
+      rgba(18, 18, 18, 1),
+      rgba(18, 18, 18, 0)
+    ),
+    url("../assets/images/donation13.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: screen;
   color: white;
   padding: 100px;
   text-align: center;
