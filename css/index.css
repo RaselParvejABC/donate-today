@@ -63,8 +63,8 @@ header {
   text-align: center;
 }
 
-header div {
-  width: 60%;
+header > div {
+  width: 70%;
 }
 
 /* Donate Today Section */
@@ -75,7 +75,7 @@ header div {
 }
 
 #donate-section > div {
-  width: 60%;
+  width: 70%;
 }
 
 #donate-section > p {
@@ -126,7 +126,7 @@ header div {
 /* Donation Plans Section */
 
 #donation-plan-section > div {
-  width: 60%;
+  width: 70%;
   text-align: center;
 }
 
