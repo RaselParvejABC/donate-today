@@ -96,20 +96,16 @@ header > div {
 }
 
 #donation-amounts > div {
+  box-sizing: border-box;
   font-size: 30;
   font-weight: bold;
-  box-sizing: border-box;
-  width: 136px;
-  height: 136px;
+  width: 15%;
   border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 1%;
 }
 
 #donation-amounts {
   justify-content: space-between;
-  align-items: center;
 }
 
 #donate-section input {
