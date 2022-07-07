@@ -53,6 +53,10 @@ h3 {
   font-weight: 600;
 }
 
+.box-shadow {
+  box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
 /* Header Section */
 
 header {
@@ -161,6 +165,61 @@ header > div {
 
 .donation-plan:nth-child(3) {
   background-color: rgba(255, 244, 214, 1);
+}
+
+/* news-section */
+
+#news-section > div {
+  width: 80%;
+  padding: 0;
+  padding-top: 50px;
+}
+
+#news-cards {
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0;
+}
+
+.news-card {
+  width: 32%;
+  padding: 0;
+}
+
+.news-card .news-image {
+  width: 100%;
+}
+
+.news-card a {
+  display: block;
+  border-radius: 0;
+}
+
+p.news-peek {
+  margin-bottom: 3%;
+  color: #32404e;
+  font-size: 16px;
+  padding: 1%;
+  height: 70px;
+  overflow: hidden;
+}
+
+/* Corporate Partners Section */
+
+#corporate-partners-section > div {
+  width: 60%;
+  padding: 50px 0 0 0;
+}
+
+#corporate-partners-section p {
+  font-size: 16px;
+  color: #32404e;
+  margin-bottom: 48px;
+}
+
+#images-of-companies img {
+  margin: 0 16px;
+  height: 30px;
 }
 
 /* Get My Updates Section */
